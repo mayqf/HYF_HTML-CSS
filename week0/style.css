@@ -1,0 +1,185 @@
+/*gradient for transition between two colors(b&g)*/
+body {background-image: linear-gradient(black, gray);
+scroll-behavior: auto;
+}
+
+/*defined homemenu division attributes*/
+.homemenu {
+  position: fixed;
+  top:0;
+  width: 99.2%;
+  height: 50px;
+  background-color:  #b396e9;
+  text-align:right;
+}
+
+/*for styling homemenu link-text, color,position and spaces-*/
+.homemenu a{
+  font-family:Georgia, Geneva, sans-serif ;
+  font-size:35px;
+  color:#ffffff;
+  text-decoration: none;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom:10px;
+}
+/*for styling when mouse cursor is place on top of the link*/
+.homemenu a:hover{
+  background-color:#4CAF50;
+  color:#FFFFE0;
+  text-align= center;
+  }
+
+/*designed here title-box, properties about box and image*/
+.sitetitle{
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/32/Goreme_banner2.jpg);
+  height: 60vh;
+  background-size:cover;
+  background-position:center;
+  text-align:justify;
+  margin-top: 57px;
+  border: outset;
+  
+}
+/*specialities about title-box, text style etc*/
+.sitetitle h1 {
+  text-align: center;
+  margin-top: 15%;
+  font-size:80px;
+  color:rgb(255,255,255);
+  font-family: algerian;
+    }
+
+/*designed here categories-box, properties about box,text,spaces and position*/
+#categories {
+  width:25%;
+  background-color: #f1f1f1;
+  float:right;
+  border: solid gray;
+  list-style-type: none;
+  text-align:center;
+  padding:0.1px;
+  height:40em;
+  line-height:1.5;
+}
+
+/*for styling categories link-text, color,position and spaces-*/
+li a {
+  display: block;
+  color: #000;
+  padding: 10px;
+  text-decoration: none;
+  text-align:center;
+  font-size:18px;
+}
+
+/*for styling when mouse cursor is place on top of the link-colors-*/
+li a:hover {
+  background-color: #555;
+  color: white;}
+
+/*created for  other parts(out of cathegories) */
+.mainboard {
+  float: left;
+  content:center;
+  width: 70%;
+  font-family:Georgia, Geneva, sans-serif;
+  font-size: 20px;
+  font-color:white;
+  line-height: 1.8em;
+  text-align:justify;
+}
+
+/*created for information box */
+.info {
+  margin-top:22px;
+  color:black;
+  background-color:white;
+  width:100%;
+  padding: 10px;
+  border-radius: 15px 15px 15px 15px;
+  border:ridge 7px;
+  border-color:gray;
+  box-shadow: 5px 5px 8px #888888;
+}
+
+/*created for floating maps to left side of text */
+.info_left{
+  float:left;
+  padding:5px 5px 5px 0;
+  margin-right:15px;
+}
+/*class created for site-name boxes styles */
+.site_name {
+  font-family:Georgia, Gadget, sans-serif;
+  border-radius: 15px 15px 15px 15px;
+  border:ridge 7px;
+  border-color:gray;
+  box-shadow: 5px 5px 8px #888888;
+  padding: 7px;
+  text-align:center;
+  background-color:white;
+  width:100%;
+}
+/*class created for pictures design */
+.pictures {
+  border: 5px solid;
+  border-color:white;
+  padding: 7px;
+  width:100%;
+  border-radius: 15px 50px;
+  box-shadow: 5px 7px 20px  #FFFFFF;}
+
+/*class created for information for each site */
+.about {
+  color:white;
+  font-size: 20px;
+  line-height: 1.5em;
+  padding:0px 10px;
+  font-family: Georgia, Geneva, sans-serif;
+  text-align:justify;
+  width:100%;
+}
+
+/*list design for things to do*/
+ul {
+  list-style-type: square;
+
+}
+
+/*styling the table*/
+table{
+  background-color:#ffe5b4;
+  font-size: 18px;
+  width:85%;
+  text-align:center;
+  border-radius: 10px;
+  margin-bottom:20px;
+  box-shadow: 0 0 5px 5px #fff;
+  
+}
+/*styling heading part of the table*/
+th {
+  border:solid;
+  border-color:#B87333;
+  height: 50px;
+  color:#800000;
+  border-radius: 10px;
+}
+/*styling other parts of the table*/
+td {
+  border:solid;
+  border-color:#B87333;
+  height: 70px;
+  color:#D2691E;
+  border-radius: 10px;
+}
+/*class for styling contact&about part*/
+.bottom_box {
+  width: 100%;
+  background-color:black;
+  color:white;
+  padding:20px;
+  position:relative;
+  float: left;
+}
